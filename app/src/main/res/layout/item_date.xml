@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/field_alias_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/textColorFieldName"
+        android:textStyle="bold"
+        android:background="@color/backgroundFieldName"/>
+
+    <Button
+        android:background="@android:color/transparent"
+        android:enabled="false"
+        android:textColor="#000"
+        android:id="@+id/field_date_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+</LinearLayout>

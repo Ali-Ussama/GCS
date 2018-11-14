@@ -1,0 +1,5 @@
+-keep class com.esri.** { *; }
+-keep interface com.esri.** { *; }
+-keep class org.codehaus.jackson.** { *; }
+-dontwarn org.codehaus.jackson.map.ext.**
+-dontwarn jcifs.http.**

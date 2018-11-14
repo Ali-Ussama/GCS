@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_index"
+        android:title="@string/enter_index"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_load_previous_offline"
+        android:icon="@drawable/ic_layers_white_24dp"
+        android:title="@string/load_previous_downloaded_map"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_go_offline"
+        android:icon="@drawable/ic_action_offline"
+        android:title="@string/action_go_offline"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/item_draw_polygon"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="@string/draw_area_to_download"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_current_extent"
+                android:icon="@drawable/ic_filter_b_and_w_black_24dp"
+                android:title="@string/download_current_map_area"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/item_load_previous"
+                android:icon="@drawable/ic_layers_black_24dp"
+                android:title="@string/load_previous_downloaded_map"
+                app:showAsAction="ifRoom" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_go_online"
+        android:icon="@drawable/ic_action_online"
+        android:title="@string/action_go_online"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_sync"
+        android:icon="@drawable/ic_action_sync"
+        android:title="@string/sync"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/overflow"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="overflow"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:visible="false"
+                android:id="@+id/item_satellite"
+                android:checkable="true"
+                android:checked="false"
+                android:icon="@drawable/ic_satellite_map"
+                android:title="Satellite Map"
+                app:showAsAction="never" />
+            <!--<item-->
+                <!--android:id="@+id/item_gcs"-->
+                <!--android:checkable="true"-->
+                <!--android:checked="false"-->
+                <!--android:icon="@drawable/ic_gcs_map"-->
+                <!--android:title="GCS Map"-->
+                <!--app:showAsAction="never" />-->
+
+            <item
+                android:visible="false"
+                android:id="@+id/item_base_map"
+                android:checkable="true"
+                android:checked="false"
+                android:icon="@drawable/ic_base_map"
+                android:title="Base Map"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_go_offline_mode"
+                android:icon="@drawable/ic_layers_black_24dp"
+                android:title="@string/menu_go_offline_mode"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_go_online_mode"
+                android:icon="@drawable/ic_layers_black_24dp"
+                android:title="@string/menu_go_online_mode"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_Add_Bookmark"
+                android:icon="@drawable/ic_stars_black_24dp"
+                android:title="@string/menu_add_bookmark"
+                app:showAsAction="never" />
+
+
+
+            <item
+                android:id="@+id/item_Show_Bookmarks"
+                android:icon="@drawable/ic_bookmark_black_24dp"
+                android:title="@string/menu_show_bookmarks"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_Logout"
+                android:icon="@drawable/ic_arrow_back_black_24dp"
+                android:title="@string/logout"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

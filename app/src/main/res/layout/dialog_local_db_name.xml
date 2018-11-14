@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="150dp"
+    android:minWidth="150dp">
+    <TextView
+        android:id="@+id/dialoge_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map title"
+        android:textAlignment="center"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/local_db_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:layout_below="@id/dialoge_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <Button
+        android:id="@+id/local_db_download"
+        android:layout_below="@id/local_db_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="download"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+</RelativeLayout>
