@@ -27,36 +27,28 @@
 
 
                                                         <!--Ali Ussama Update-->
-    <string name="BaseMap" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_AllMap/MapServer</string>
+    <string name="BaseMap" translatable="false">Tiled Map Server Api Url</string>
 
-    <string name="BaseMap2" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_Index/MapServer</string>
+    <string name="BaseMap2" translatable="false">Dynamic Indexing Map Server Api Url</string>
 
-    <!--<string name="gcs_feature_server" translatable="false">http://41.38.90.172:6080/arcgis/rest/services/GCS_TEST/FeatureServer</string>-->
-
-    <!--<string name="point_feature_layer_services" translatable="false">http://41.38.90.172:6080/arcgis/rest/services/GCS_TEST/FeatureServer/0</string>-->
-    <!--<string name="line_feature_layer_services" translatable="false">http://41.38.90.172:6080/arcgis/rest/services/GCS_TEST/FeatureServer/1</string>-->
-    <!--<string name="polygon_feature_layer_services" translatable="false">http://41.38.90.172:6080/arcgis/rest/services/GCS_TEST/FeatureServer/2</string>-->
-    <!--<string name="index_services" translatable="false">http://41.38.90.172:6080/arcgis/rest/services/GCS_TEST/FeatureServer/3</string>-->
-
-
-    <string name="gcs_feature_server" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_3857/FeatureServer</string>
-    <string name="point_feature_layer_services" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_3857/FeatureServer/0</string>
-    <string name="line_feature_layer_services" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_3857/FeatureServer/1</string>
-    <string name="polygon_feature_layer_services" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_3857/FeatureServer/2</string>
-    <string name="index_services" translatable="false">http://196.218.181.250:6080/arcgis/rest/services/GCS_3857/FeatureServer/3</string>
+    <string name="gcs_feature_server" translatable="false">GCS Feature Server</string>
+    <string name="point_feature_layer_services" translatable="false">Point Feature Layer Services</string>
+    <string name="line_feature_layer_services" translatable="false">Point Feature Layer Services</string>
+    <string name="polygon_feature_layer_services" translatable="false">Point Feature Layer Services</string>
+    <string name="index_services" translatable="false">Point Feature Layer Services</string>
                                                             <!--Ali Ussama Update-->
 
-    <string name="GcsSatellite" translatable="false">http://54.187.60.111/arcgis/rest/services/GCS_Cahced/MapServer</string>
+    <string name="GcsSatellite" translatable="false">Satelite Map Server Api Url</string>
 
-    <string name="MapServiceEnglishToken" translatable="false">dXIpr8oo9tCaCrniBW4dT_sAGlcX8I3tyOK5eNaGJAo.</string>
-    <string name="MapServiceArabicToken" translatable="false">dXIpr8oo9tCaCrniBW4dT_sAGlcX8I3tyOK5eNaGJAo.</string>
-    <string name="FeatureServiceToken" translatable="false">TMEE6lqp0mvBmoZkPeeLpb0TCLvOd6RIzXVr1oU5_JA.</string>
-    <string name="GcsSatelliteToken" translatable="false">RxmJJAGcbuNb_T4lafPuguHIKAfrYVila_DhIkbE9mA.</string>
+    <string name="MapServiceEnglishToken" translatable="false">Map Service English Token</string>
+    <string name="MapServiceArabicToken" translatable="false">Map Service Arabic Token</string>
+    <string name="FeatureServiceToken" translatable="false">Feature Service Token</string>
+    <string name="GcsSatelliteToken" translatable="false">Gcs Satellite Token</string>
 
     <string name="point_feature_layer_name" translatable="false">GeoNames</string>
     <string name="line_feature_layer_name" translatable="false">NameExtendLine</string>
     <string name="polygon_feature_layer_name" translatable="false">NameExtendArea</string>
-    <string name="working_area_feature_layer_services" translatable="false"> http://54.187.60.111/arcgis/rest/services/GCS_Collector_26_7_2017/FeatureServer/7</string>
+    <string name="working_area_feature_layer_services" translatable="false">Working Area Feature Layer Services Url</string>
 
     <string name="dialog_connection_failed_title"> Error downloading</string>
     <string name="connection_failed">Connection Failed, Please try again</string>
