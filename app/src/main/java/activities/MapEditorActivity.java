@@ -563,9 +563,9 @@ public class MapEditorActivity extends AppCompatActivity implements EditInFeatur
             featureServiceToken = new UserCredentials();
             GcsSatelliteToken = new UserCredentials();
 
-            mapServiceToken.setUserAccount("siteadmin", "siteadmin");
+            mapServiceToken.setUserAccount("USERNAME", "PASSWORD");
 
-            featureServiceToken.setUserAccount("siteadmin", "siteadmin");
+            featureServiceToken.setUserAccount("USERNAME", "PASSWORD");
 
             GcsSatelliteToken.setUserToken(getString(R.string.GcsSatelliteToken), "android");
             GcsSatelliteToken.setAuthenticationType(UserCredentials.AuthenticationType.TOKEN);
